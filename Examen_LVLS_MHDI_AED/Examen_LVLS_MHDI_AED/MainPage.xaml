@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen_LVLS_MHDI_AED.MainPage">
+
+    <StackLayout>
+        <Entry x:Name="inputEntry" Placeholder="Ingrese un número" />
+        <Button Text="Decimal a Binario" Clicked="DecimalToBinaryClicked" />
+        <Button Text="Decimal a Hexadecimal" Clicked="DecimalToHexClicked" />
+        <Button Text="Decimal a Octal" Clicked="DecimalToOctalClicked" />
+        <Button Text="Binario a Decimal" Clicked="BinaryToDecimalClicked" />
+        <Button Text="Binario a Hexadecimal" Clicked="BinaryToHexClicked" />
+        <Button Text="Binario a Octal" Clicked="BinaryToOctalClicked" />
+        <Button Text="Hexadecimal a Decimal" Clicked="HexToDecimalClicked" />
+        <Button Text="Hexadecimal a Binario" Clicked="HexToBinaryClicked" />
+        <Button Text="Hexadecimal a Octal" Clicked="HexToOctalClicked" />
+        <Button Text="Octal a Decimal" Clicked="OctalToDecimalClicked" />
+        <Button Text="Octal a Binario" Clicked="OctalToBinaryClicked" />
+        <Button Text="Octal a Hexadecimal" Clicked="OctalToHexClicked" />
+        <Label x:Name="resultLabel" />
+    </StackLayout>
+
+</ContentPage>
